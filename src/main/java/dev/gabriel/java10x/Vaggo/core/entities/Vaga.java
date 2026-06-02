@@ -8,7 +8,7 @@ import java.util.UUID;
 public record Vaga(
         UUID id,
         String empresa,
-        String nome,
+        String titulo,
         String descricao,
         String local,
         Double salario,

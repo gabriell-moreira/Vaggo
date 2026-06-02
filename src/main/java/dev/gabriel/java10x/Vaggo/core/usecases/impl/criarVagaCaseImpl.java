@@ -5,7 +5,7 @@ import dev.gabriel.java10x.Vaggo.core.usecases.criarVagaCase;
 
 public class criarVagaCaseImpl implements criarVagaCase {
 
-    @Ove  rride
+    @Override
     public Vaga execute(Vaga vaga){
         return vaga;
     }
